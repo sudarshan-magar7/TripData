@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    opacity: 0.8;
+    max-width:80%;
+    padding: 16px;
+    margin: auto;
+
+}
+
+.container h3,p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+p{
+    font-size: 17px;
+}
+
+
+.container input, textarea
+ {
+    width: 80%;
+    margin: 8px;
+    display: block;
+    border-radius: 5px;
+    border: solid;
+    margin: 11px auto;
+    padding: 7px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    columns: white;
+    background-color: rgb(163, 98, 224);
+    padding: 10px;
+    width: auto;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
